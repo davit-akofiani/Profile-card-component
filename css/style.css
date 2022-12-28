@@ -1,4 +1,4 @@
-/* first mobile size 375px */
+/* first mobile version */
 body{
     background-image: url("../image/bg-pattern-top.svg"), url("../image/bg-pattern-bottom.svg");
     background-position: top 250px left 470px, bottom -200px  right 400px ;
@@ -87,6 +87,14 @@ body{
     line-height: 12px;
     letter-spacing: 1.5px;
     margin-bottom: 27px;
+
+}
+/* responsive with desktop */
+@media screen and (min-width: 375px) {
+    .card{
+        width: 350px;
+    }
+
 
 }
 
